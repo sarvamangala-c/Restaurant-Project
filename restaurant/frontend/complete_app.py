@@ -65,7 +65,7 @@ st.markdown("""
 
 /* Global styles */
 .stApp {
-    background: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
+    background: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
     background-size: cover;
     font-family: 'Inter', sans-serif;
 }
@@ -351,16 +351,16 @@ def add_message(role, content):
 MENU = {
     "Morning (Breakfast)": {
         "Veg": [
-            {"name": "Masala Dosa", "price": 120, "image": "https://wallpaperaccess.com/full/6340448.jpg"},
-            {"name": "Idli Vada", "price": 80, "image": "https://as1.ftcdn.net/v2/jpg/04/65/28/88/1000_F_465288827_zBiEkb_660x660.jpg"},
-            {"name": "Poha", "price": 60, "image": "https://thumbs.dreamstime.com/b/poha-23333662.jpg"},
-            {"name": "Chole bhature", "price": 100, "image": "https://i0.wp.com/bakaasur.com/wp-content/uploads/2022/12/chole-bhature.jpg?w=1200&ssl=1"},
-            {"name": "Bonda", "price": 70, "image": "https://www.masalakorb.com/wp-content/uploads/2023/02/EASY-MYSORE-BONDA-RECIPE-MAIDA-BONDA-MYSORE-BAJJI-V1.jpg"}
+            {"name": "Masala Dosa", "price": 120, "image": "https://images.unsplash.com/photo-1587899899017-21858dc0623f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+            {"name": "Idli Vada", "price": 80, "image": "https://images.unsplash.com/photo-1586200858069-5d01b4d5e4b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+            {"name": "Poha", "price": 60, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+            {"name": "Chole bhature", "price": 100, "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba56f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+            {"name": "Bonda", "price": 70, "image": "https://images.unsplash.com/photo-1604503434322-12e1d3a6f52e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"}
         ],
         "Non-Veg": [
-            {"name": "Bread Omelette", "price": 80, "image": "https://tse2.mm.bing.net/th/id/OIP.0G9LjhrRb4VglpXOs54JjAHaKX?pid=Api&P=0&h=180"},
-            {"name": "Chicken Keema Paratha", "price": 180, "image": "https://1.bp.blogspot.com/-bFuZOx0Aoa4/XP8CVnIxGAI/AAAAAAAAZK4/DsSMVFOlv7gcHpZ4Yw-1200.jpg"},
-            {"name": "Egg Bhurji", "price": 90, "image": "http://eggcellent.recipes/wp-content/uploads/2024/08/Indian-Egg-Bhurji-Recipe-1024x1024.png"},
+            {"name": "Bread Omelette", "price": 80, "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+            {"name": "Chicken Keema Paratha", "price": 180, "image": "https://images.unsplash.com/photo-1563379091339-03246964d5c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
+            {"name": "Egg Bhurji", "price": 90, "image": "https://images.unsplash.com/photo-1586200858069-5d01b4d5e4b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"},
             {"name": "Chicken sausages", "price": 70, "image": "https://insanelygoodrecipes.com/wp-content/uploads/2021/12/Homemade-Fried-Chicken-Sausage-with-Garlic-Butter-Sauce-and-Lemons.jpg"},
             {"name": "Chicken cutlet", "price": 90, "image": "https://therecipemaster.com/wp-content/uploads/2024/09/Chicken-Cutlet-Recipe-Card.webp"}
         ]
