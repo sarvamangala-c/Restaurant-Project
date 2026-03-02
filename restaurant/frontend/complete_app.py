@@ -65,8 +65,20 @@ st.markdown("""
 
 /* Global styles */
 .stApp {
-    background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 50%, #45B7D1 100%);
+    background: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat fixed;
+    background-size: cover;
     font-family: 'Inter', sans-serif;
+}
+
+.stApp::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 150, 136, 0.5) 0%, rgba(77, 182, 172, 0.4) 50%, rgba(38, 166, 154, 0.5) 100%);
+    z-index: -1;
 }
 
 /* Main content container */
@@ -83,7 +95,7 @@ h1 {
     font-weight: 700 !important;
     color: white !important;
     text-align: center !important;
-    text-shadow: 2px 4px 8px rgba(0,0,0,0.3) !important;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.8) !important;
     margin-bottom: 0.5rem !important;
 }
 
@@ -92,7 +104,7 @@ h3 {
     font-family: 'Inter', sans-serif !important;
     font-size: 1.3rem !important;
     font-weight: 400 !important;
-    color: rgba(255,255,255,0.9) !important;
+    color: white !important;
     text-align: center !important;
     margin-bottom: 2rem !important;
 }
@@ -102,7 +114,7 @@ h2 {
     font-family: 'Playfair Display', serif !important;
     font-size: 2rem !important;
     font-weight: 600 !important;
-    color: #2C3E50 !important;
+    color: white !important;
     margin-bottom: 1.5rem !important;
     padding-bottom: 0.5rem !important;
     border-bottom: 3px solid #FF6B6B !important;
@@ -118,6 +130,12 @@ h2 {
     margin: 1rem 0 !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
     border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+}
+
+/* Make all text white for better contrast */
+.stMarkdown, .stText, p, span, div, label {
+    color: white !important;
 }
 
 /* Button styling */
@@ -258,7 +276,7 @@ hr {
 
 /* Price and amount styling */
 .markdown-text-container strong {
-    color: #2C3E50 !important;
+    color: white !important;
     font-weight: 600 !important;
 }
 
@@ -272,7 +290,7 @@ hr {
 
 /* Form section headers */
 .stMarkdown > div > div > h4 {
-    color: #2C3E50 !important;
+    color: white !important;
     font-family: 'Playfair Display', serif !important;
     font-size: 1.3rem !important;
     font-weight: 600 !important;
